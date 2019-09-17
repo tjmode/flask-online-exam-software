@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="refresh" content="5;url=http://www.google.com/" />
+	<title></title>		
+</head>
+<script type="text/javascript">
+	window.onload=function(){ 
+    window.setTimeout(function() { document.cartCheckout.submit(); }, 5000);
+};
+</script>
+<body>
+	<form action="." method="post" name="cartCheckout">
+	name<input type="text" name="name">
+	<a href="https://mighty-lake-09974.herokuapp.com/"><button id="cartCheckout">submit</button></a>
+	</form>
+</body>
+</html>
